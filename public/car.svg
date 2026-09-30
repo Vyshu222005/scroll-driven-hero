@@ -1,0 +1,111 @@
+<svg width="520" height="260" viewBox="0 0 520 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Shadow -->
+  <ellipse
+    cx="260"
+    cy="220"
+    rx="190"
+    ry="22"
+    fill="black"
+    fill-opacity="0.35"
+  />
+
+  <!-- Car body -->
+  <path
+    d="M65 174
+       L92 128
+       C103 108 122 98 147 96
+       L192 91
+       L231 55
+       C242 45 257 39 273 39
+       L335 39
+       C353 39 369 46 381 59
+       L416 99
+       L449 108
+       C467 113 480 128 484 146
+       L492 174
+       C497 190 485 203 469 203
+       L51 203
+       C35 203 25 190 31 175
+       Z"
+    fill="url(#bodyGradient)"
+  />
+
+  <!-- Windows -->
+  <path
+    d="M205 91
+       L237 59
+       C245 51 256 47 269 47
+       L326 47
+       C340 47 351 52 360 62
+       L385 92
+       Z"
+    fill="url(#windowGradient)"
+  />
+
+  <!-- Window divider -->
+  <path
+    d="M292 48 L292 91"
+    stroke="#B9C4FF"
+    stroke-width="4"
+    opacity="0.6"
+  />
+
+  <!-- Front light -->
+  <path
+    d="M450 137 L477 143 L481 158 L452 158 Z"
+    fill="#DDE6FF"
+  />
+
+  <!-- Rear light -->
+  <path
+    d="M44 143 L67 137 L62 158 L39 158 Z"
+    fill="#FF426D"
+  />
+
+  <!-- Wheels -->
+  <circle cx="125" cy="196" r="38" fill="#08090D"/>
+  <circle cx="125" cy="196" r="19" fill="#4D5366"/>
+  <circle cx="125" cy="196" r="8" fill="#AAB2C8"/>
+
+  <circle cx="407" cy="196" r="38" fill="#08090D"/>
+  <circle cx="407" cy="196" r="19" fill="#4D5366"/>
+  <circle cx="407" cy="196" r="8" fill="#AAB2C8"/>
+
+  <!-- Body highlight -->
+  <path
+    d="M88 130 C150 112 355 110 432 130"
+    stroke="#FFFFFF"
+    stroke-opacity="0.25"
+    stroke-width="5"
+    stroke-linecap="round"
+  />
+
+  <defs>
+    <linearGradient
+      id="bodyGradient"
+      x1="70"
+      y1="80"
+      x2="460"
+      y2="210"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop stop-color="#A06BFF"/>
+      <stop offset="0.5" stop-color="#7040E8"/>
+      <stop offset="1" stop-color="#35148D"/>
+    </linearGradient>
+
+    <linearGradient
+      id="windowGradient"
+      x1="210"
+      y1="50"
+      x2="370"
+      y2="100"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop stop-color="#1C2338"/>
+      <stop offset="1" stop-color="#56658F"/>
+    </linearGradient>
+  </defs>
+
+</svg>
